@@ -16,9 +16,14 @@ pipeline {
 				DOCKER_HUB = credentials('docker-hub')
 			}
             steps {
-				bat "docker login -u %DOCKER_HUB_USR% -p %DOCKER_HUB_PSW%"
+				bat 'docker login -u %DOCKER_HUB_USR% -p %DOCKER_HUB_PSW%'
                 bat "docker push monosijbiswas/selenium-docker:latest" 
             }
         }
     }
+    post {
+		always {
+			bat "docker logout"
+		}
+	}
 }
