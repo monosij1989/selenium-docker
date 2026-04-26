@@ -1,0 +1,11 @@
+{
+	"firstName": "Tanima",
+	"lastName": "Das",
+	"email": "bdd@mono.com",
+	"password": "bdd",
+	"street": "123 This Street",
+	"city": "Edinburg",
+	"zip": "700096",
+	"passengerCount": "2",
+	"expectedTotalPrice": "$1169 USD"
+}

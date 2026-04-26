@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Vendor-Portal]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="User-Sam(failed)">
+    <parameter name="testDataPath" value="test-data/vendorportal/sam.json"/>
+    <classes>
+      <class name="com.mono.tests.vendorportal.VendorPortalTest">
+        <methods>
+          <include name="dashboardTest"/>
+          <include name="loginTest"/>
+          <include name="setUp"/>
+          <include name="setUpPages"/>
+          <include name="logoutTest"/>
+          <include name="initializeProperties"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.mono.tests.vendorportal.VendorPortalTest -->
+    </classes>
+  </test> <!-- User-Sam(failed) -->
+  <test thread-count="5" name="User-Mike(failed)">
+    <parameter name="testDataPath" value="test-data/vendorportal/mike.json"/>
+    <classes>
+      <class name="com.mono.tests.vendorportal.VendorPortalTest">
+        <methods>
+          <include name="dashboardTest"/>
+          <include name="loginTest"/>
+          <include name="setUp"/>
+          <include name="setUpPages"/>
+          <include name="logoutTest"/>
+          <include name="initializeProperties"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.mono.tests.vendorportal.VendorPortalTest -->
+    </classes>
+  </test> <!-- User-Mike(failed) -->
+  <test thread-count="5" name="User-John(failed)">
+    <parameter name="testDataPath" value="test-data/vendorportal/john.json"/>
+    <classes>
+      <class name="com.mono.tests.vendorportal.VendorPortalTest">
+        <methods>
+          <include name="dashboardTest"/>
+          <include name="loginTest"/>
+          <include name="setUp"/>
+          <include name="setUpPages"/>
+          <include name="logoutTest"/>
+          <include name="initializeProperties"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.mono.tests.vendorportal.VendorPortalTest -->
+    </classes>
+  </test> <!-- User-John(failed) -->
+</suite> <!-- Failed suite [Vendor-Portal] -->

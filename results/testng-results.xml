@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-25T13:09:27 GMT" name="Vendor-Portal" finished-at="2026-04-25T13:09:46 GMT" duration-ms="19515">
+    <groups>
+    </groups>
+    <test started-at="2026-04-25T13:09:27 GMT" name="User-Sam" finished-at="2026-04-25T13:09:34 GMT" duration-ms="7619">
+      <class name="com.mono.tests.vendorportal.VendorPortalTest">
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.mono.tests.vendorportal.VendorPortalTest@b9b00e0]" started-at="2026-04-25T13:09:27 GMT" name="setUp" finished-at="2026-04-25T13:09:28 GMT" duration-ms="1763" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@8851ce1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpPages(java.lang.String)[pri:0, instance:com.mono.tests.vendorportal.VendorPortalTest@b9b00e0]" started-at="2026-04-25T13:09:28 GMT" name="setUpPages" finished-at="2026-04-25T13:09:29 GMT" duration-ms="232" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test-data/vendorportal/sam.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPages -->
+        <test-method signature="loginTest()[pri:0, instance:com.mono.tests.vendorportal.VendorPortalTest@b9b00e0]" started-at="2026-04-25T13:09:29 GMT" name="loginTest" finished-at="2026-04-25T13:09:30 GMT" duration-ms="1216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="dashboardTest()[pri:0, instance:com.mono.tests.vendorportal.VendorPortalTest@b9b00e0]" started-at="2026-04-25T13:09:30 GMT" name="dashboardTest" finished-at="2026-04-25T13:09:33 GMT" depends-on-methods="com.mono.tests.vendorportal.VendorPortalTest.loginTest" duration-ms="3010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashboardTest -->
+        <test-method signature="logoutTest()[pri:0, instance:com.mono.tests.vendorportal.VendorPortalTest@b9b00e0]" started-at="2026-04-25T13:09:33 GMT" name="logoutTest" finished-at="2026-04-25T13:09:34 GMT" depends-on-methods="com.mono.tests.vendorportal.VendorPortalTest.dashboardTest" duration-ms="1263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mono.tests.vendorportal.VendorPortalTest@b9b00e0]" started-at="2026-04-25T13:09:34 GMT" name="tearDown" finished-at="2026-04-25T13:09:34 GMT" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mono.tests.vendorportal.VendorPortalTest -->
+    </test> <!-- User-Sam -->
+    <test started-at="2026-04-25T13:09:34 GMT" name="User-Mike" finished-at="2026-04-25T13:09:40 GMT" duration-ms="6196">
+      <class name="com.mono.tests.vendorportal.VendorPortalTest">
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.mono.tests.vendorportal.VendorPortalTest@26d9b808]" started-at="2026-04-25T13:09:34 GMT" name="setUp" finished-at="2026-04-25T13:09:36 GMT" duration-ms="1228" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2d9dff65]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpPages(java.lang.String)[pri:0, instance:com.mono.tests.vendorportal.VendorPortalTest@26d9b808]" started-at="2026-04-25T13:09:36 GMT" name="setUpPages" finished-at="2026-04-25T13:09:36 GMT" duration-ms="12" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test-data/vendorportal/mike.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPages -->
+        <test-method signature="loginTest()[pri:0, instance:com.mono.tests.vendorportal.VendorPortalTest@26d9b808]" started-at="2026-04-25T13:09:36 GMT" name="loginTest" finished-at="2026-04-25T13:09:37 GMT" duration-ms="1203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="dashboardTest()[pri:0, instance:com.mono.tests.vendorportal.VendorPortalTest@26d9b808]" started-at="2026-04-25T13:09:37 GMT" name="dashboardTest" finished-at="2026-04-25T13:09:39 GMT" depends-on-methods="com.mono.tests.vendorportal.VendorPortalTest.loginTest" duration-ms="2355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashboardTest -->
+        <test-method signature="logoutTest()[pri:0, instance:com.mono.tests.vendorportal.VendorPortalTest@26d9b808]" started-at="2026-04-25T13:09:39 GMT" name="logoutTest" finished-at="2026-04-25T13:09:40 GMT" depends-on-methods="com.mono.tests.vendorportal.VendorPortalTest.dashboardTest" duration-ms="1299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mono.tests.vendorportal.VendorPortalTest@26d9b808]" started-at="2026-04-25T13:09:40 GMT" name="tearDown" finished-at="2026-04-25T13:09:40 GMT" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mono.tests.vendorportal.VendorPortalTest -->
+    </test> <!-- User-Mike -->
+    <test started-at="2026-04-25T13:09:41 GMT" name="User-John" finished-at="2026-04-25T13:09:46 GMT" duration-ms="5524">
+      <class name="com.mono.tests.vendorportal.VendorPortalTest">
+        <test-method is-config="true" signature="initializeProperties()[pri:0, instance:com.mono.tests.vendorportal.VendorPortalTest@644baf4a]" started-at="2026-04-25T13:09:26 GMT" name="initializeProperties" finished-at="2026-04-25T13:09:27 GMT" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeProperties -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.mono.tests.vendorportal.VendorPortalTest@644baf4a]" started-at="2026-04-25T13:09:41 GMT" name="setUp" finished-at="2026-04-25T13:09:42 GMT" duration-ms="1014" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5ef6fd7f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpPages(java.lang.String)[pri:0, instance:com.mono.tests.vendorportal.VendorPortalTest@644baf4a]" started-at="2026-04-25T13:09:42 GMT" name="setUpPages" finished-at="2026-04-25T13:09:42 GMT" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test-data/vendorportal/john.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPages -->
+        <test-method signature="loginTest()[pri:0, instance:com.mono.tests.vendorportal.VendorPortalTest@644baf4a]" started-at="2026-04-25T13:09:42 GMT" name="loginTest" finished-at="2026-04-25T13:09:43 GMT" duration-ms="1028" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="dashboardTest()[pri:0, instance:com.mono.tests.vendorportal.VendorPortalTest@644baf4a]" started-at="2026-04-25T13:09:43 GMT" name="dashboardTest" finished-at="2026-04-25T13:09:45 GMT" depends-on-methods="com.mono.tests.vendorportal.VendorPortalTest.loginTest" duration-ms="2439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashboardTest -->
+        <test-method signature="logoutTest()[pri:0, instance:com.mono.tests.vendorportal.VendorPortalTest@644baf4a]" started-at="2026-04-25T13:09:45 GMT" name="logoutTest" finished-at="2026-04-25T13:09:46 GMT" depends-on-methods="com.mono.tests.vendorportal.VendorPortalTest.dashboardTest" duration-ms="934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mono.tests.vendorportal.VendorPortalTest@644baf4a]" started-at="2026-04-25T13:09:46 GMT" name="tearDown" finished-at="2026-04-25T13:09:46 GMT" duration-ms="96" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mono.tests.vendorportal.VendorPortalTest -->
+    </test> <!-- User-John -->
+  </suite> <!-- Vendor-Portal -->
+</testng-results>

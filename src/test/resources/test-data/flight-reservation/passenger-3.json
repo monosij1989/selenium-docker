@@ -1,0 +1,11 @@
+{
+	"firstName": "Rina",
+	"lastName": "Biswas",
+	"email": "rina@mono.com",
+	"password": "rina",
+	"street": "123 That Street",
+	"city": "Kolkata",
+	"zip": "700096",
+	"passengerCount": "3",
+	"expectedTotalPrice": "$1753 USD"
+}

@@ -1,0 +1,11 @@
+{
+	"firstName": "Monosij",
+	"lastName": "Biswas",
+	"email": "mono@mono.com",
+	"password": "mono",
+	"street": "123 Some Street",
+	"city": "Edinburg",
+	"zip": "700096",
+	"passengerCount": "1",
+	"expectedTotalPrice": "$584 USD"
+}

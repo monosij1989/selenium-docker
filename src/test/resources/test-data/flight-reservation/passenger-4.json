@@ -1,0 +1,11 @@
+{
+	"firstName": "Barbie",
+	"lastName": "Dollsss",
+	"email": "dbdd@mono.com",
+	"password": "dbdd",
+	"street": "123 Why Street",
+	"city": "London",
+	"zip": "700096",
+	"passengerCount": "4",
+	"expectedTotalPrice": "$2338 USD"
+}
