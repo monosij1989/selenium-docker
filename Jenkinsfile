@@ -8,22 +8,22 @@ pipeline {
         }
         stage('Build Docker Image') {
             steps {
-                bat "docker build -t=monosijbiswas/selenium-docker:latest ." 
+                script {
+                    app = docker.build("monosijbiswas/selenium-docker")
+                } 
             }
         }
         stage('Push Docker Image to Docker Hub') {
-			environment {
-				DOCKER_HUB = credentials('docker-hub')
-			}
-            steps {
-				bat 'docker login -u %DOCKER_HUB_USR% -p %DOCKER_HUB_PSW%'
-                bat "docker push monosijbiswas/selenium-docker:latest" 
+            environment {
+                DOCKER_HOST = 'npipe:////./pipe/docker_engine'
+            }
+			steps {
+                script {
+                    docker.withRegistry('','docker-hub') {
+                        app.push("latest")
+                    }
+                }
             }
         }
     }
-    post {
-		always {
-			bat "docker logout"
-		}
-	}
 }
